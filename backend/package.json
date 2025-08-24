@@ -1,0 +1,31 @@
+{
+  "name": "chatbot-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend server for AI chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "express",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^2.0.2",
+    "node-fetch": "^2.6.7",
+    "openai": "^5.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
